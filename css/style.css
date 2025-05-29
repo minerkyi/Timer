@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+  font-family: "Pretendard-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.container {
+  width: 1280px;
+  height: 720px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+
+  background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+}
+
+header {
+  padding-top: 72px;
+}
+
+h1 {
+  width: 244px;
+  height: 48px;
+}
+
+h1 img {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 400px;
+  height: 360px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 16px;
+  box-shadow: 20px 20px 60px 10px #374B7C66;
+
+  background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+}
+
+main h2 {
+  width: 312px;
+  padding: 48px 0 23px;
+
+  text-align: center;
+  border-bottom: 1px solid #3D538A;
+
+
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.box-time {
+  margin-top: 32px;
+
+  display: flex;
+  gap: 8px;
+}
+
+.box-time > div {
+  width: 80px;
+  height: 98px;
+}
+
+.box-time > div p {
+  text-align: center;
+}
+
+.box-time img {
+  padding-top: 18px;
+}
+
+.box-num {
+  height: 80px;
+  margin-top: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #354971;
+  border-radius: 4px;
+  background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+}
+
+.box-num input {
+  width: 53px;
+  height: 48px;
+
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+
+  background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+
+  outline: none;
+  border: none;
+}
+
+.btn-group {
+  width: 236px;
+  height: 48px;
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn-group button {
+  width: 112px;
+
+  border: none;
+  border-radius: 50px;
+
+  color: #617199;
+;
+  background: #324577;  
+  box-shadow: 1px 1px 1px 0px #0000000D inset;
+}
+
+.btn-group .btn-start:not(:disabled) {
+  color: white;
+  background: #5180FF;
+}
+
+.btn-group .btn-reset:not(:disabled)  {
+  color: white;
+  background: #FB7099;
+}
+
+.btn-group .btn-pause {
+  display: none;
+  color: white;
+  background: #15C2B8;
+}
+
+footer p {
+  color: #8596BF;
+}
+

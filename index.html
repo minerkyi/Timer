@@ -3,9 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Timer</title>
     </head>
     <body>
-      Timer
+      <div class="container">
+        <header>
+          <h1><img src="./images/weniv-logo.svg" alt="weniv"></h1>
+        </header>
+        <main>
+          <h2>TIMER</h2>
+          <div class="box-time">
+            <div class="box-hrs">
+              <p>HRS</p>
+              <div class="box-num">
+                <input type="text" value="00" maxlength="2" />
+              </div>
+            </div>
+            <img src="./images/dot.svg" alt="">
+            <div class="box-min">
+              <p>MIN</p>
+              <div class="box-num">
+                <input type="text" value="00" maxlength="2" />
+              </div>
+            </div>
+            <img src="./images/dot.svg" alt="">
+            <div class="box-sec">
+              <p>SEC</p>
+              <div class="box-num">
+                <input type="text" value="00" maxlength="2" />
+              </div>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button class="btn-start" disabled>START</button>
+            <button class="btn-pause">PAUSE</button>
+            <button class="btn-reset" disabled>RESET</button>
+          </div>
+        </main>
+        <footer>
+          <p>ⓒ WENIV Corp.</p>
+        </footer>
+      </div>
+      <script src="./js/timer.js"></script>
     </body>
 </html>
